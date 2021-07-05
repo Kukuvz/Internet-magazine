@@ -1,0 +1,32 @@
+.header {
+    &__top {
+        &-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 122px;
+            font-weight: 700;
+        }
+    }
+    &__box {
+        display: flex;
+    }
+    &__adress {
+        margin-right: 60px;
+        width: 265px;
+        padding-left: 30px;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            background-image: url("/icons/adress-icon.svg");
+            height: 30px;
+            width: 30px;
+            left: 0;
+            top: -10px;
+        }
+    }
+    &__bottom {
+        margin-bottom: 78px;
+    }
+}

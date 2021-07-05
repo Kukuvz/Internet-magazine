@@ -1,27 +1,48 @@
-// @import 'libs/fonts.css';
+@import 'libs/normalize';
+@import 'libs/slick';
+@import 'libs/fonts';
 
-// @import 'base/variables';
-// @import 'base/mixins';
+@import 'base/variables';
+@import 'base/mixins';
 
-// * {
-//     box-sizing: border-box;
-//     font-family: 'DINRoundPro', sans-serif;
-//     margin: 0;
-//     padding: 0;
-//     color: #261c04;
-// }
+html {
+    box-sizing: border-box;
+}
 
-// body {
-//     background-color: #f7f7f7;
-// }
+*, *::before, *::after {
+    box-sizing: inherit;
+}
 
-// .container {
-//     width: 1200px;
-//     margin: 0 auto;
-// }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
-// @import 'blocks/product';
-// @import 'blocks/image';
-// @import 'blocks/form';
-// @import 'blocks/price';
-// @import 'blocks/article';
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    color: #2F3035;
+    font-family: 'SFProDisplay', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@import "blocks/header";
+@import "blocks/menu";
+@import "blocks/user-list";
+@import "blocks/basket";

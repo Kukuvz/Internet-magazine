@@ -1,0 +1,8 @@
+.user-list {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    &__item {
+        padding-right: 10px;
+    }
+}
