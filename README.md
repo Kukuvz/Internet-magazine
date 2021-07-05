@@ -1,1 +1,1 @@
-# Create Kigurumi page
+# Create Internet-magazine site
