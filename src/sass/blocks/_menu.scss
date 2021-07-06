@@ -15,10 +15,7 @@
             transition: all .5s;
             font-weight: 400;
             padding: 15px 0 14px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            position: relative;
             &::before {
                 content: "";
                 position: absolute;

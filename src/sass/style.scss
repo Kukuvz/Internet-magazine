@@ -1,6 +1,7 @@
 @import 'libs/normalize';
 @import 'libs/slick';
 @import 'libs/fonts';
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 
 @import 'base/variables';
 @import 'base/mixins';
@@ -28,9 +29,13 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+p {
+    margin: 0;
+}
+
 body {
     color: #2F3035;
-    font-family: 'SFProDisplay', sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -46,3 +51,7 @@ body {
 @import "blocks/menu";
 @import "blocks/user-list";
 @import "blocks/basket";
+@import "blocks/banner-section";
+@import "blocks/slick-dots";
+@import "blocks/sale-item";
+@import "blocks/price";

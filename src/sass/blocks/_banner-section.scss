@@ -1,0 +1,30 @@
+.banner-section {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__slider {
+        max-width: 870px;
+        &-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: transparent;
+            border: none;
+            margin: 0;
+            padding: 0;
+            z-index: 5;
+            cursor: pointer;
+        }
+        &-btnprev {
+            left: 20px;
+        }
+        &-btnnext {
+            right: 20px;
+        }
+        &-img {
+            object-fit: cover;
+            min-height: 400px;
+        }
+    }
+}
