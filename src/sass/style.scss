@@ -17,6 +17,7 @@ html {
 a {
     text-decoration: none;
     color: inherit;
+    display: inline-block;
 }
 
 ul, li {
@@ -51,7 +52,10 @@ body {
 @import "blocks/menu";
 @import "blocks/user-list";
 @import "blocks/basket";
+@import "blocks/page-section";
 @import "blocks/banner-section";
 @import "blocks/slick-dots";
 @import "blocks/sale-item";
 @import "blocks/price";
+@import "blocks/search";
+@import "blocks/categories";
