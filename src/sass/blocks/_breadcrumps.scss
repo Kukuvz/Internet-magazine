@@ -1,0 +1,25 @@
+.breadcrumps {
+    margin-bottom: 40px;
+    &__list-item {
+        display: inline-block;
+        padding-right: 16px;
+        margin-right: 10px;
+        position: relative;
+        font-size: 15px;
+        line-height: 18px;
+        color: #C4C4C4;
+        &::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            background-image: url('../icons/link-arrow.svg');
+            background-repeat: no-repeat;
+            width: 6px;
+            height: 11px;
+            bottom: 5px;
+        }
+        &:last-child::after {
+            display: none;
+        }
+    }
+}
