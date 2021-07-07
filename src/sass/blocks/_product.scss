@@ -5,7 +5,7 @@
         text-align: center;
         padding: 52px 20px 31px;
         transition: all .3s;
-        min-height: 400px;
+        height: 400px;
         &__wrapper {
             position: relative;
             width: 271px;
@@ -129,7 +129,7 @@
     }
     &__more {
         text-align: center;
-        margin: 35px 0 80px;
+        margin: 35px 0 0;
         &-link {
             font-size: 15px;
             line-height: 18px;
@@ -186,6 +186,7 @@
 
 // products
 .products {
+    margin-bottom: 80px;
     &__tabs {
         margin-bottom: 25px;
     }
