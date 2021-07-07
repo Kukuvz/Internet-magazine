@@ -19,6 +19,9 @@
         background-color: transparent;
     }
 }
-.slick-active button {
+.slick-active li button {
     background-color: #fff;
+}
+.slick-slide img {
+    display: inline;
 }

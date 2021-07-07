@@ -3,7 +3,7 @@
         margin-bottom: 25px;
         &-item {
             padding: 11px 26px 12px;
-            &--active {
+            &.tab--active {
                border-radius: 5px;
                background-color: #F0F0F4;
                font-weight: 700;
@@ -38,12 +38,6 @@
             width: 100%;
             &::placeholder {
                 color: #656464;
-            }
-        }
-        &-item {
-            display: none;
-            &--active {
-                display: block;
             }
         }
     }
