@@ -1,0 +1,44 @@
+.btn {
+    &-checked {
+        & .aside-filter__content {
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+        & .aside-filter__content-box {
+            width: auto;
+        }
+        & .aside-filter__content-label {
+            position: relative;
+            height: 25px;
+            width: 63px;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.07em;
+            color: #C4C4C4;
+        }
+        & .jq-checkbox {
+            height: 25px;
+            width: 63px;
+            background: #F0F0F4;
+            border: none;
+            &.checked {
+                background: $main-color;
+                color: #fff;
+                & .jq-checkbox__div {
+                    display: none;
+                }
+                & ~ .btn-checked__text {
+                    color: #fff;
+                }
+            }
+        }
+        &__text {
+            position: absolute;
+            top: -7px;
+            left: 50%;
+            transform: translateX(-57%);
+            z-index: 5;
+        }
+    }
+}
