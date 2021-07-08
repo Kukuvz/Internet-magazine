@@ -1,0 +1,116 @@
+.aside-filter {
+    &__tabs {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__tab {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        color: #C4C4C4;
+        width: 50%;
+        &.tab--active {
+            font-weight: 700;
+            color: #2F3035;
+            & span {
+                display: inline-block;
+                border-bottom: 2px solid $main-color;
+                padding-bottom: 7px;
+            }
+        }
+    }
+    &__item {
+        &-drop {
+            margin: 40px 0;
+        }
+        &-title {
+            padding-left: 26px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &-list {
+            margin: 46px 0 40px;
+        }
+    }
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        &-box {
+            width: 50%;
+            margin-bottom: 10px;
+        }
+        &-label {
+            font-size: 14px;
+            line-height: 17px;
+            cursor: pointer;
+        }
+        &.aside-filter__content-radio {
+            flex-wrap: nowrap;
+        }
+    }
+}
+
+//range-slider
+.irs--flat {
+    width: 100%;
+    margin-top: -15px;
+}
+.irs--flat .irs-from, .irs--flat .irs-to, .irs--flat .irs-single {
+    display: none;
+}
+.irs--flat .irs-min, .irs--flat .irs-max {
+    top: 55px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: underline;
+    color: #2F3035;
+    font-family: 'Barlow', sans-serif;
+    text-shadow: none;
+    background-color: transparent;
+    border-radius: 0;
+    visibility: visible !important;
+    padding-left: 27px;
+
+}
+.irs-min::before,
+.irs-max::before {
+    position: absolute;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C4C4C4;
+    left: 0;
+    text-decoration: none;
+}
+.irs-min::before {
+    content: 'от';
+}
+.irs-max::before {
+    content: 'до';
+}
+.irs--flat .irs-line {
+    top: 25px;
+    height: 1px;
+    background-color: #E0E0E0;
+    border-radius: 0;
+}
+.irs--flat .irs-bar {
+    top: 25px;
+    height: 3px;
+    background-color: $main-color;
+}
+.irs--flat .irs-handle {
+    top: 22px;
+    width: 8px;
+    height: 8px;
+    background-color: $main-color;
+    border-radius: 50%;
+}
+.irs--flat .irs-handle>i:first-child,
+.irs--flat .irs-handle.state_hover>i:first-child, .irs--flat .irs-handle:hover>i:first-child {
+    background: transparent;
+}

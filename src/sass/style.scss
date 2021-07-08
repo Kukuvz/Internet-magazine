@@ -2,6 +2,10 @@
 @import 'libs/slick';
 @import 'libs/fonts';
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+@import 'libs/ion.rangeSlider.min';
+@import 'libs/jquery.formstyler';
+@import 'libs/jquery.formstyler.theme';
+@import 'libs/jquery.rateyo.min';
 
 @import 'base/variables';
 @import 'base/mixins';
@@ -67,3 +71,6 @@ body {
 @import "blocks/breadcrumps";
 @import "blocks/catalog";
 @import "blocks/pagination";
+@import "blocks/aside-filter";
+@import 'blocks/filter';
+@import 'blocks/jq';
