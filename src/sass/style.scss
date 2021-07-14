@@ -44,6 +44,8 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
+    overflow-x: hidden;
+    min-height: 320px;
 }
 
 .container {
@@ -78,3 +80,5 @@ body {
 @import 'blocks/select';
 @import 'blocks/card';
 @import 'blocks/workhours';
+
+@import 'blocks/media';
