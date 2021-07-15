@@ -117,6 +117,15 @@
         margin-bottom: 25px;
     }
     &-slider {
+        & .slick-dots {
+            bottom: -30px;
+            & button {
+                background: #C4C4C4;
+            }
+            & .slick-active button {
+                background-color: $main-color;
+            }
+        }
         &__slider {
             &-btn {
                 position: absolute;

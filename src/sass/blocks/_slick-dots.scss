@@ -4,6 +4,9 @@
     left: 0;
     right: 0;
     text-align: center;
+    & .slick-active button {
+        background-color: #fff;
+    }
     li {
         display: inline-block;
         padding: 0 5px;
