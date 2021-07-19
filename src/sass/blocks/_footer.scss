@@ -21,6 +21,9 @@
         &-social.footer__top-item {
             width: 250px;
         }
+        &drop {
+            pointer-events: none;
+        }
     }
     &__bottom {
         padding: 46px 0 22px;
